@@ -1,15 +1,11 @@
-import { Text, View } from "react-native";
+import { View } from "react-native";
+// import Router from "expo-router";
+import LoginScreen from "./frontend/loginScreen.jsx";
 
 export default function Index() {
   return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <Text>Edit app/index.tsx to edit this screen.</Text>
+    <View>
+        <LoginScreen />
     </View>
   );
 }
